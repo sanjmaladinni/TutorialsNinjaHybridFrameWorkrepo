@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="11" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-18T17:48:13 IST" name="TutorialsNinja Tests" finished-at="2023-05-18T17:49:14 IST" duration-ms="61137">
+    <groups>
+    </groups>
+    <test started-at="2023-05-18T17:48:13 IST" name="Test" finished-at="2023-05-18T17:49:14 IST" duration-ms="61137">
+      <class name="com.tutotiarlsninjs.qa.testcases.SearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutotiarlsninjs.qa.testcases.SearchTest@65fb9ffc]" started-at="2023-05-18T17:49:06 IST" name="setup" finished-at="2023-05-18T17:49:09 IST" duration-ms="2705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifysearchWithValidProduct()[pri:1, instance:com.tutotiarlsninjs.qa.testcases.SearchTest@65fb9ffc]" started-at="2023-05-18T17:49:09 IST" name="verifysearchWithValidProduct" finished-at="2023-05-18T17:49:09 IST" duration-ms="540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysearchWithValidProduct -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:com.tutotiarlsninjs.qa.testcases.SearchTest@65fb9ffc]" started-at="2023-05-18T17:49:09 IST" name="tearDwon" finished-at="2023-05-18T17:49:10 IST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutotiarlsninjs.qa.testcases.SearchTest@65fb9ffc]" started-at="2023-05-18T17:49:10 IST" name="setup" finished-at="2023-05-18T17:49:12 IST" duration-ms="2575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifysearchWithInValidProduct()[pri:2, instance:com.tutotiarlsninjs.qa.testcases.SearchTest@65fb9ffc]" started-at="2023-05-18T17:49:12 IST" name="verifysearchWithInValidProduct" finished-at="2023-05-18T17:49:13 IST" duration-ms="518" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[no product matchies in criteria expected [There is no product that matches the search criteria s.] but found [There is no product that matches the search criteria.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: no product matchies in criteria expected [There is no product that matches the search criteria s.] but found [There is no product that matches the search criteria.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at com.tutotiarlsninjs.qa.testcases.SearchTest.verifysearchWithInValidProduct(SearchTest.java:45)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysearchWithInValidProduct -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:com.tutotiarlsninjs.qa.testcases.SearchTest@65fb9ffc]" started-at="2023-05-18T17:49:13 IST" name="tearDwon" finished-at="2023-05-18T17:49:14 IST" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+        <test-method signature="verifysearchWithOutAnyProduct()[pri:3, instance:com.tutotiarlsninjs.qa.testcases.SearchTest@65fb9ffc]" started-at="2023-05-18T17:49:14 IST" name="verifysearchWithOutAnyProduct" finished-at="2023-05-18T17:49:14 IST" depends-on-methods="com.tutotiarlsninjs.qa.testcases.SearchTest.verifysearchWithInValidProduct" duration-ms="1" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.tutotiarlsninjs.qa.testcases.SearchTest.verifysearchWithOutAnyProduct() on instance com.tutotiarlsninjs.qa.testcases.SearchTest@65fb9ffc depends on not successfully finished methods 
+[com.tutotiarlsninjs.qa.testcases.SearchTest.verifysearchWithInValidProduct() on instance com.tutotiarlsninjs.qa.testcases.SearchTest@65fb9ffc]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.tutotiarlsninjs.qa.testcases.SearchTest.verifysearchWithOutAnyProduct() on instance com.tutotiarlsninjs.qa.testcases.SearchTest@65fb9ffc depends on not successfully finished methods 
+[com.tutotiarlsninjs.qa.testcases.SearchTest.verifysearchWithInValidProduct() on instance com.tutotiarlsninjs.qa.testcases.SearchTest@65fb9ffc]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysearchWithOutAnyProduct -->
+      </class> <!-- com.tutotiarlsninjs.qa.testcases.SearchTest -->
+      <class name="com.tutotiarlsninjs.qa.testcases.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutotiarlsninjs.qa.testcases.LoginTest@4802796d]" started-at="2023-05-18T17:48:41 IST" name="setUp" finished-at="2023-05-18T17:48:44 IST" duration-ms="3084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutotiarlsninjs.qa.testcases.LoginTest@4802796d]" started-at="2023-05-18T17:48:44 IST" name="verifyLoginWithValidCredentials" data-provider="validCredentialSupplier" finished-at="2023-05-18T17:48:45 IST" duration-ms="927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sanjumaladinni008@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sanju123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:com.tutotiarlsninjs.qa.testcases.LoginTest@4802796d]" started-at="2023-05-18T17:48:45 IST" name="tearDwon" finished-at="2023-05-18T17:48:45 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutotiarlsninjs.qa.testcases.LoginTest@4802796d]" started-at="2023-05-18T17:48:45 IST" name="setUp" finished-at="2023-05-18T17:48:48 IST" duration-ms="3011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutotiarlsninjs.qa.testcases.LoginTest@4802796d]" started-at="2023-05-18T17:48:48 IST" name="verifyLoginWithValidCredentials" data-provider="validCredentialSupplier" finished-at="2023-05-18T17:48:49 IST" duration-ms="923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[devil121ninja@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sanju@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:com.tutotiarlsninjs.qa.testcases.LoginTest@4802796d]" started-at="2023-05-18T17:48:49 IST" name="tearDwon" finished-at="2023-05-18T17:48:49 IST" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutotiarlsninjs.qa.testcases.LoginTest@4802796d]" started-at="2023-05-18T17:48:49 IST" name="setUp" finished-at="2023-05-18T17:48:52 IST" duration-ms="3016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithInValidCredentials()[pri:2, instance:com.tutotiarlsninjs.qa.testcases.LoginTest@4802796d]" started-at="2023-05-18T17:48:52 IST" name="verifyLoginWithInValidCredentials" finished-at="2023-05-18T17:48:53 IST" duration-ms="931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidCredentials -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:com.tutotiarlsninjs.qa.testcases.LoginTest@4802796d]" started-at="2023-05-18T17:48:53 IST" name="tearDwon" finished-at="2023-05-18T17:48:54 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutotiarlsninjs.qa.testcases.LoginTest@4802796d]" started-at="2023-05-18T17:48:54 IST" name="setUp" finished-at="2023-05-18T17:48:57 IST" duration-ms="3071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithInValidEmailAndValidPassword()[pri:3, instance:com.tutotiarlsninjs.qa.testcases.LoginTest@4802796d]" started-at="2023-05-18T17:48:57 IST" name="verifyLoginWithInValidEmailAndValidPassword" finished-at="2023-05-18T17:48:58 IST" duration-ms="951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidEmailAndValidPassword -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:com.tutotiarlsninjs.qa.testcases.LoginTest@4802796d]" started-at="2023-05-18T17:48:58 IST" name="tearDwon" finished-at="2023-05-18T17:48:58 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutotiarlsninjs.qa.testcases.LoginTest@4802796d]" started-at="2023-05-18T17:48:58 IST" name="setUp" finished-at="2023-05-18T17:49:01 IST" duration-ms="3237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithValidEmailAndInValidPassword()[pri:4, instance:com.tutotiarlsninjs.qa.testcases.LoginTest@4802796d]" started-at="2023-05-18T17:49:01 IST" name="verifyLoginWithValidEmailAndInValidPassword" finished-at="2023-05-18T17:49:02 IST" duration-ms="772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidEmailAndInValidPassword -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:com.tutotiarlsninjs.qa.testcases.LoginTest@4802796d]" started-at="2023-05-18T17:49:02 IST" name="tearDwon" finished-at="2023-05-18T17:49:02 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutotiarlsninjs.qa.testcases.LoginTest@4802796d]" started-at="2023-05-18T17:49:02 IST" name="setUp" finished-at="2023-05-18T17:49:05 IST" duration-ms="2994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithOutValidCredentials()[pri:5, instance:com.tutotiarlsninjs.qa.testcases.LoginTest@4802796d]" started-at="2023-05-18T17:49:05 IST" name="verifyLoginWithOutValidCredentials" finished-at="2023-05-18T17:49:06 IST" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithOutValidCredentials -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:com.tutotiarlsninjs.qa.testcases.LoginTest@4802796d]" started-at="2023-05-18T17:49:06 IST" name="tearDwon" finished-at="2023-05-18T17:49:06 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+      </class> <!-- com.tutotiarlsninjs.qa.testcases.LoginTest -->
+      <class name="com.tutotiarlsninjs.qa.testcases.RegisterTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutotiarlsninjs.qa.testcases.RegisterTest@6cf0e0ba]" started-at="2023-05-18T17:48:14 IST" name="setUp" finished-at="2023-05-18T17:48:24 IST" duration-ms="10077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisteringAnAccountWithMandatoryFiels()[pri:1, instance:com.tutotiarlsninjs.qa.testcases.RegisterTest@6cf0e0ba]" started-at="2023-05-18T17:48:24 IST" name="verifyRegisteringAnAccountWithMandatoryFiels" finished-at="2023-05-18T17:48:25 IST" duration-ms="1576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAnAccountWithMandatoryFiels -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:com.tutotiarlsninjs.qa.testcases.RegisterTest@6cf0e0ba]" started-at="2023-05-18T17:48:25 IST" name="tearDwon" finished-at="2023-05-18T17:48:26 IST" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutotiarlsninjs.qa.testcases.RegisterTest@6cf0e0ba]" started-at="2023-05-18T17:48:26 IST" name="setUp" finished-at="2023-05-18T17:48:29 IST" duration-ms="3125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisteringAnAccountWithAllFiels()[pri:2, instance:com.tutotiarlsninjs.qa.testcases.RegisterTest@6cf0e0ba]" started-at="2023-05-18T17:48:29 IST" name="verifyRegisteringAnAccountWithAllFiels" finished-at="2023-05-18T17:48:31 IST" duration-ms="1637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAnAccountWithAllFiels -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:com.tutotiarlsninjs.qa.testcases.RegisterTest@6cf0e0ba]" started-at="2023-05-18T17:48:31 IST" name="tearDwon" finished-at="2023-05-18T17:48:31 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutotiarlsninjs.qa.testcases.RegisterTest@6cf0e0ba]" started-at="2023-05-18T17:48:31 IST" name="setUp" finished-at="2023-05-18T17:48:34 IST" duration-ms="3236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegiterAccountWithExistingEmailId()[pri:3, instance:com.tutotiarlsninjs.qa.testcases.RegisterTest@6cf0e0ba]" started-at="2023-05-18T17:48:34 IST" name="verifyRegiterAccountWithExistingEmailId" finished-at="2023-05-18T17:48:36 IST" duration-ms="1464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegiterAccountWithExistingEmailId -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:com.tutotiarlsninjs.qa.testcases.RegisterTest@6cf0e0ba]" started-at="2023-05-18T17:48:36 IST" name="tearDwon" finished-at="2023-05-18T17:48:36 IST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutotiarlsninjs.qa.testcases.RegisterTest@6cf0e0ba]" started-at="2023-05-18T17:48:36 IST" name="setUp" finished-at="2023-05-18T17:48:39 IST" duration-ms="3116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegiterAccountWithOutEnteringAnyDetails()[pri:4, instance:com.tutotiarlsninjs.qa.testcases.RegisterTest@6cf0e0ba]" started-at="2023-05-18T17:48:39 IST" name="verifyRegiterAccountWithOutEnteringAnyDetails" finished-at="2023-05-18T17:48:40 IST" duration-ms="674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegiterAccountWithOutEnteringAnyDetails -->
+        <test-method is-config="true" signature="tearDwon()[pri:0, instance:com.tutotiarlsninjs.qa.testcases.RegisterTest@6cf0e0ba]" started-at="2023-05-18T17:48:40 IST" name="tearDwon" finished-at="2023-05-18T17:48:40 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+      </class> <!-- com.tutotiarlsninjs.qa.testcases.RegisterTest -->
+    </test> <!-- Test -->
+  </suite> <!-- TutorialsNinja Tests -->
+</testng-results>
